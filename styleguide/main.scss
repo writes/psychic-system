@@ -1,5 +1,13 @@
-@import 'patterns/33-34-33/33-34-33';
-@import 'global/footer/footer';
-@import 'global/header/header';
+// Global
 @import 'bootstrap/bootstrap.min.css';
-@import 'bootstrap/modern-business.css';
+@import 'global/footer/footer';
+@import 'global/nav/nav';
+
+// Templates
+@import 'templates/homepage/homepage';
+
+// Patterns
+@import 'patterns/33-34-33/33-34-33';
+
+// Sites
+// ex: @import 'sites/pages/index.ejs';
